@@ -17,7 +17,7 @@ The repository is organized as follows:
 	•	database.ini – Not included in the repository; contains PostgreSQL credentials
   • config.py and connect.py - Configuration files to connect to the db
  
-## create a python enviroment
+## Create a python enviroment
 
 python3 -m venv env
 
