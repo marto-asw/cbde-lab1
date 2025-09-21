@@ -5,19 +5,18 @@ This project contains Python scripts that need to be executed using. Before runn
 ## Structure
 
 The repository is organized as follows: 
-.
-├── P0.py       # Connects to PostgreSQL and stores raw sentences
-├── P1.py       # Connects to PostgreSQL and stores embeddings
-├── P2.py       # PostgreSQL benchmark analysis
-├── C0.py       # Connects to ChromaDB and stores raw sentences
-├── C1.py       # Connects to ChromaDB and stores embeddings
-├── C2.py       # ChromaDB benchmark analysis
-├── README.md
-├── requirements.txt #dependencies
-└── database.ini  # Not included in repo; contains DB credentials
 
-And 2 configuration files. 
-
+	•	P0.py – Connects to PostgreSQL and stores raw sentences
+	•	P1.py – Connects to PostgreSQL and stores embeddings
+	•	P2.py – PostgreSQL benchmark analysis
+	•	C0.py – Connects to ChromaDB and stores raw sentences
+	•	C1.py – Connects to ChromaDB and stores embeddings
+	•	C2.py – ChromaDB benchmark analysis
+	•	README.md – This file
+	•	requirements.txt – Python dependencies
+	•	database.ini – Not included in the repository; contains PostgreSQL credentials
+  • config.py and connect.py - Configuration files to connect to the db
+ 
 ## create a python enviroment
 
 python3 -m venv env
