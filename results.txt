@@ -1,0 +1,26 @@
+--postgres--
+
+Tiempos inserción texto: min=8.082389831542969e-05 max=0.022277116775512695 avg=0.00017741050720214844 std=0.0003788109682055
+
+Tiempos inserción embeddings: min=0.0011010169982910156 max=0.17629027366638184 avg=0.00402521185874939 std=0.003294704250027607
+
+Tiempos de computacion: min=0.010742902755737305 max=0.019836902618408203 avg=0.012295889854431152 std=0.002554442814866068
+
+
+--chroma--
+
+Tiempos de almacenamiento (documentos):
+  min = 124.8828
+  max = 133.1466
+  avg = 129.0147
+  std = 4.1319
+Tiempos de almacenamiento (embeddings):
+  min = 0.2357
+  max = 0.2379
+  avg = 0.2368
+  std = 0.0011
+
+
+Tiempos de computación (Cosine): min=0.000447s max=0.002134s avg=0.000757s std=0.000472s
+
+Tiempos de computación (Euclidean): min=0.000404s max=0.000600s avg=0.000485s std=0.000068s
