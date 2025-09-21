@@ -18,7 +18,7 @@ embs = np.array([r[2] for r in rows])
 # Choose 10 random sentences to test
 test_indices = np.random.choice(len(texts), size=10, replace=False)
 print(f"The indices are:",test_indices)
-print("=== 10 frases seleccionadas aleatoriamente ===")
+print("=== The 10 sentences to test are: ===")
 for i, idx in enumerate(test_indices, 1):
     print(f"{i}. {texts[idx]}")
 
